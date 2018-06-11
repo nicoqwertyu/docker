@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -v /home/flea/Shared/:/mnt/Shared/ flea/gobuster $@
+
